@@ -63,6 +63,27 @@
         </article>
 
     </section>
+
+
+    <section>
+        <h2>Apuntadores GIT</h2>
+        <article>
+            <h3>HEAD</h3>
+            <P>Apuntador Movil que se utiliza para indicar al usuario donde se encuentra actualmente, permite la navegación dentro del historial de cambios e incluso lo podemos utilizar como referente mediante expresiones como <em>HEAD ^</em> o <em>HEAD~1</em>                para indicar a cuantos ancestros o commits anteriores hacemos referencia
+            </P>
+            <ul class="commands">
+                <li><strong>git diff HEAD</strong> compara el contenido actual del working directory con el ultimo commit emitido</li>
+                <li><strong> git checkout HEAD~1</strong> mueve el apunador a la confirmación anterior a la que nos encontramos actualmente</li>
+            </ul>
+        </article>
+        <article>
+            <h3>BRANCH</h3>
+            <p>
+                Apuntador dinamico que siempre hace referencia al ultimo commit dentro de la historia en la que encontremos, se utilizan para implementar caracteristicas de prueba, realizar revisiones o correcciones, sin moficicar la linea principal del proyecto. Tambien
+                faciitan la navegación dentro del historial de cambios.
+            </p>
+        </article>
+    </section>
     <footer>
         <div class="map">
 
@@ -76,7 +97,7 @@
 
         </table>
         <p class="copy">
-            &copi;2023 Todos los derechos reservados
+            &copy;;2023 Todos los derechos reservados
         </p>
     </footer>
 </body>
